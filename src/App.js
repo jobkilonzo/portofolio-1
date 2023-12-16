@@ -1,8 +1,11 @@
+import Home from "./component/Home";
+import Navbar from "./component/Navbar";
 
 function App() {
   return (
     <div className="App">
-      Portofolio
+      <Navbar />
+      <Home />
     </div>
   );
 }
